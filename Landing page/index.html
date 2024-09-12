@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #000000;
+            padding: 10px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            font-weight: 100;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin-left: 20px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        .navbar ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .product-list {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .product-card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 30%;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product-card img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .product-card h3 {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+
+        .product-card p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .product-card .info {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .product-card .info span {
+            font-size: 14px;
+            color: #888;
+        }
+
+        .product-card .read-more {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #000000;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .product-card .read-more:hover {
+            background-color: #45a049;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">Ticket</div>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Product">Product</a></li>
+        </ul>
+
+        <div class="container">
+            <h1>Ticket airlanes</h1>
+            <div class="product-list">
+                <div class="product-card">
+                <img src="Nusa Penida Travel Guide_ How to Visit Nusa Penida from Bali.jpeg" alt="Product 1">
+                <h3>Bali</h3>
+                <p>Check Bali airlanes flight ticket</p>
+                <div class="info">
+                    <span>134</span>
+                    <span>50 likes</span>
+                </div>
+                <a href="#" class="read-more">read-more</a>
+            </div>
+                <div class="product-card">
+                    <img src="41 Things to know before visiting Japan for the first time_ Etiquette and Cultural Guide  — Helena Bradbury.jpeg" alt="Product 2">
+                    <h3>Japan</h3>
+                    <p>Check japan airlanes flight ticket</p>
+                    <div class="info">
+                        <span>200</span>
+                        <span>134 likes</span>
+                    </div>
+                    <a href="#" class="read-more">Read-more</a>
+                </div>
+                <div class="product-card">
+                    <img src="الكعبة الشريفة.jpeg" alt="Product 3">
+                    <h3>Makkah</h3>
+                    <p>Check Makkah Airlines flight tickets</p>
+                    <div class="info">
+                        <span>200 Sold</span>
+                        <span>100Likes</span>
+                    </div>
+                    <a href="#" class="read-more">Read More</a>
+                </div>    
+            </div>
+            <div class="footer">
+                <p>&copy; 2024 Ticket. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
